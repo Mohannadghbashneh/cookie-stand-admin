@@ -28,7 +28,7 @@ export default function Home() {
         <ReportTable allOutputs={allOutputs} />
       </main>
       <div className=" text-center">
-        <p className="text-xl  text-white  py-4 px-5 ">
+        <p className="text-2xl  text-gray-500  py-4 px-5 ">
           {Locations.length>0 ? `${Locations.length} Locations world wide`:'0 Location world wide'}
         </p>
       </div>

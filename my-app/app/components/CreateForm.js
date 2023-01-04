@@ -100,7 +100,7 @@ export default function CreateForm(props) {
               className=" text-xl  text-gray-800 rounded-3xl border-1  bg-gray-100 py-4 px-5 shadow-lg w-3/5 ml-20 pl-10 mr-2"
             ></input>
           </div>
-          <div className="my-4 text-right mr-4 ">
+          <div className="my-4 text-center mr-4 ">
             <button className=" text-xl  text-gray-200 rounded-3xl border-1 border-indigo-200 bg-pink-900 py-4 px-5 shadow-lg hover:bg-purple-600">
               Create 
             </button>
