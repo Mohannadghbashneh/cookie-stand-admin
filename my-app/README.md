@@ -10,6 +10,9 @@ npm run dev
 yarn dev
 ```
 
+### [PR 1](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/1)
+### [PR 2](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/2)
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
@@ -35,5 +38,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-### [PR 1](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/1)
-### [PR 2](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/2)
+
