@@ -1,15 +1,18 @@
 import React from "react";
-import { useState } from "react";
+import { useState ,useMemo} from "react";
+import { data } from "./data.js"; 
+import {Cookie_admin } from "../custom_hooks/TotalCol.js";
 
-export default function AdminForm() {
+export default function CreateForm(props) {
   const [location, setLocation] = useState("");
   const [minCustomers, setMinCustomers] = useState("");
   const [maxCustomers, setMaxCustomers] = useState("");
   const [avgCookies, setAvgCookies] = useState("");
-  const [allOutputs, setAllOutputs] = useState([]);
+
 
   const handleLocation = (e) => {
     setLocation(e.target.value);
+    
   };
 
   const handleMinCustomers = (e) => {
@@ -25,13 +28,19 @@ export default function AdminForm() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+  
+  
+  const cookie = Cookie_admin(data, location)
     const output = {
-      _location: location || "Empty",
-      min_customers: minCustomers || "Empty",
-      max_customers: maxCustomers || "Empty",
-      avg_cookies: avgCookies || "Empty",
+      _location: location || "irbid",
+      min_customers: minCustomers || "5",
+      max_customers: maxCustomers || "10",
+      avg_cookies: avgCookies || "8",
+      hourlySales: cookie || [48,42,30,24,42,24,36,42,42,48,36,42,24,36,516],
+      
     };
-    setAllOutputs([...allOutputs, output]);
+    props.getUserInput(output);
+
   };
 
   return (
@@ -91,7 +100,7 @@ export default function AdminForm() {
               className=" text-xl  text-gray-800 rounded-3xl border-1  bg-gray-100 py-4 px-5 shadow-lg w-3/5 ml-20 pl-10 mr-2"
             ></input>
           </div>
-          <div className="my-4 text-right mr-4 ">
+          <div className="my-4 text-center mr-4 ">
             <button className=" text-xl  text-gray-200 rounded-3xl border-1 border-indigo-200 bg-pink-900 py-4 px-5 shadow-lg hover:bg-purple-600">
               Create 
             </button>
@@ -104,9 +113,9 @@ export default function AdminForm() {
 
 
       
-      <section>
+      {/* <section> */}
         
-<div class="overflow-x-auto relative">
+{/* <div class="overflow-x-auto relative">
     <table class="w-full pt-10 text-center shadow-lg shadow-black-50">
         <thead class="text-gray-900 uppercase dark:text-gray-400">
             <tr>
@@ -154,7 +163,8 @@ export default function AdminForm() {
         
 
           
-      </section>
+      </section> */}
     </div>
   );
-}
+
+          }
