@@ -9,7 +9,7 @@ export default function about() {
   </Image>
   <div class="pt-6 text-center space-y-4">
     <blockquote>
-      <p class="text-lg font-medium">
+      <p class="text-lg text-black dark:text-white font-medium">
       “'Cookie’s reputation as one of the best restaurants in Jordan for those who love dining in a buzzing atmosphere with a fantastic cocktail in their hand is widely-spread and well-deserved'”
       </p>
     </blockquote>

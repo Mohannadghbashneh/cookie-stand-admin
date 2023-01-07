@@ -45,19 +45,19 @@ export default function CreateForm(props) {
 
   return (
     
-    <div>
+    <div >
       <section className=" flex justify-center ">
         <form
           onSubmit={handleSubmit}
-          class="relative flex flex-col break-words mb-6 rounded-lg bg-gray-500  rounded-3xl shadow-2xl w-4/5"
+          class="relative flex flex-col break-words mb-6 rounded-lg bg-gray-500 dark:bg-red-600 rounded-3xl shadow-2xl w-4/5"
         >
-          <div className="mt-7 mb-10 text-center border-b-2 ">
-            <span className=" text-xl  text-gray-100 rounded-3xl border-1  bg-pink-900 border-gray-300  py-4 px-5 shadow-lg">
+          <div className="mt-7 mb-10 text-center border-b-2  dark:border-black">
+            <span className=" text-xl  text-gray-100 rounded-3xl border-1  dark:bg-blue-500 bg-pink-900 border-gray-300  py-4 px-5 shadow-lg">
               Create Cookie Stand
             </span>
           </div>
           <div className=" flex justify-center">
-            <label className=" text-xl  text-gray-100 rounded-3xl border-1 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
+            <label className=" text-xl  text-gray-100 rounded-3xl border-1 dark:bg-blue-500 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
               Location
             </label>
             <input
@@ -68,7 +68,7 @@ export default function CreateForm(props) {
             ></input>
           </div>
           <div className=" flex justify-center mt-1">
-          <label className=" text-xl  text-gray-100 rounded-3xl border-1 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
+          <label className=" text-xl  text-gray-100 rounded-3xl dark:bg-blue-500 border-1 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
               Minimum Customers per Hour
             </label>
             <input
@@ -79,7 +79,7 @@ export default function CreateForm(props) {
             ></input>
           </div>
           <div className=" flex justify-center mt-1">
-            <label className=" text-xl  text-gray-100 rounded-3xl border-1 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
+            <label className=" text-xl  text-gray-100 rounded-3xl border-1 dark:bg-blue-500 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
               Maximum Customers per Hour
             </label>
             <input
@@ -90,7 +90,7 @@ export default function CreateForm(props) {
             ></input>
           </div>
           <div className=" flex justify-center mt-1">
-            <label className="text-xl  text-gray-100 rounded-3xl border-1 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
+            <label className="text-xl  text-gray-100 rounded-3xl border-1 dark:bg-blue-500 border-gray-300 bg-pink-900 py-4 px-5 shadow-lg w-2/5 ml-2 pl-10">
               Average Cookies per Sale
             </label>
             <input
@@ -101,7 +101,7 @@ export default function CreateForm(props) {
             ></input>
           </div>
           <div className="my-4 text-center mr-4 ">
-            <button className=" text-xl  text-gray-200 rounded-3xl border-1 border-indigo-200 bg-pink-900 py-4 px-5 shadow-lg hover:bg-purple-600">
+            <button className=" text-xl  text-gray-200 dark:bg-blue-500 rounded-3xl border-1 border-indigo-200 bg-pink-900 py-4 px-5 shadow-lg hover:bg-purple-600">
               Create 
             </button>
           </div>
