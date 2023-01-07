@@ -12,6 +12,7 @@ yarn dev
 
 ### [PR 1](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/1)
 ### [PR 2](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/2)
+### [PR 2](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/3)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
