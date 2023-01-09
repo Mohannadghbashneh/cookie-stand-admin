@@ -14,9 +14,11 @@ yarn dev
 ### [PR 2](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/2)
 ### [PR 3](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/3)
 ### [PR 4](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/4)
-
+```bash
 username:Walaa
+#
 pass:walaa
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
