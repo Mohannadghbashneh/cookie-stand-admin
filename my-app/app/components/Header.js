@@ -6,7 +6,6 @@ import { ThemeContext } from '../contexts/theme'
 
 export default function Header() {
   const { isDarkTheme, toggleThemeHandler } = useContext(ThemeContext);
-  console.log(useContext(ThemeContext));
 
 
   return (
