@@ -16,7 +16,6 @@ yarn dev
 ### [PR 4](https://github.com/Mohannadghbashneh/cookie-stand-admin/pull/4)
 ```bash
 username:Walaa
-#
 pass:walaa
 ```
 
